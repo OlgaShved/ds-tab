@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+/* Basic styles */
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+html,
+body {
+    color:  #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+}
+
+body {
+    background: #2b3040 url(../img/BG.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a, button{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+/* tabs */
+
+.container {
+	margin: auto;
+    padding: 0 15px;
+    max-width: 600px;
+    width: 100%;
+}
+
+ul {
+	background-color: #2b3040;
+	padding-left: 0;
+	margin-top: 145px;
+	margin-bottom: 55px;
+}
+
+li {
+	list-style-type: none;
+	padding: 32px 0;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.title {
+	color: rgba(255,255,255, 0.5);
+	padding: 32px;
+	border-bottom: 3px solid transparent;
+}
+
+.title.active {
+    color: rgba(255,255,255, 1);
+    border-bottom: 3px solid white;
+}
+
+li:hover .title {
+    color: #13e28d;
+    font-weight: 700;
+	cursor: pointer;
+}
+
+/* content */
+
+#tabs {
+	background: #212534;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.date {
+	text-transform: capitalize;
+}
+
+.text {
+	margin: auto;
+    padding: 0 10px 50px;
+    max-width: 300px;
+	width: 100%;
+}
+
+.img-cont {
+    display: inline-block;
+}
+
+.info-cont {
+    display: inline-block;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+/* button */
+
+.send {
+    padding-bottom: 60px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background: #13e28d;
+    border: 2px solid #13e28d;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #fff;
+    border: 2px solid #13e28d;
+    color: #13e28d;
+    cursor: pointer;
+}
+
+.btn:active {
+    background: #13e28d;
+    color: #FFF;
+    border: 2px solid #fff;
+}
+
